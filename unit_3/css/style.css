@@ -1,0 +1,59 @@
+body {
+	background-color: #727272;
+}
+
+h1 {
+	color: white;
+	text-align: right;
+	font-family: oswald;
+	font-style: italic;
+	font-size: 45px;
+	font-weight: 55px;
+	padding: 20px;
+	border: 1px solid #595959;
+	border-radius: 20px;
+}	
+
+img {
+	border: 1px solid #5d0101;
+	border-radius: 15px;
+}
+
+
+/*h2*/
+.slogan {
+	font-size: 35px;
+	font-family: veranda;
+	font-style: italic;
+	color: #5d0101;
+	text-align: left;
+
+}
+
+p {
+	font-family: veranda;
+	color: #e3d8d8;
+	font-size: 16px;
+	text-align: left;
+	
+}
+
+h3 {
+	color: #5d0101;
+	font-family: veranda;
+	font-style: italic;
+	font-size: 35px;
+	text-align: left;
+}
+
+ul{
+	font-family: veranda;
+	font-size: 20px;
+	color: #5d0101;
+}
+
+a:link {
+	text-decoration: none;
+	color: #e3d8d8 ;
+}
+
