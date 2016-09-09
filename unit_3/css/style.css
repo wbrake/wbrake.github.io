@@ -1,48 +1,43 @@
 body {
 	background-color: #727272;
 }
+/*slogan*/
 
-h1 {
-	color: white;
-	text-align: right;
-	font-family: oswald;
+#slogan {
+	font-size: 35px;
+	font-family: veranda;
 	font-style: italic;
-	font-size: 45px;
-	font-weight: 55px;
-	padding: 20px;
-	border: 1px solid #595959;
-	border-radius: 20px;
-}	
+	color: #5d0101;
+	text-align: right;
+	padding: 5px;
+}
 
 img {
 	border: 1px solid #5d0101;
 	border-radius: 15px;
 }
 
-
-/*h2*/
-.slogan {
-	font-size: 35px;
+#portfolio {
+	font-size: 30px;
 	font-family: veranda;
-	font-style: italic;
+	font-style: bold;
 	color: #5d0101;
 	text-align: left;
-
 }
 
 p {
 	font-family: veranda;
+	font-size: 20px;
 	color: #e3d8d8;
-	font-size: 16px;
 	text-align: left;
 	
 }
 
-h3 {
-	color: #5d0101;
+#design {
+	font-size: 30px;
 	font-family: veranda;
-	font-style: italic;
-	font-size: 35px;
+	font-style: bold;
+	color: #5d0101;
 	text-align: left;
 }
 
@@ -55,5 +50,16 @@ ul{
 a:link {
 	text-decoration: none;
 	color: #e3d8d8 ;
+	text-align: left;
 }
+
+#contact {
+	font-size: 20px;
+	font-family: veranda;
+	font-style: bold;
+	color: #5d0101;
+	text-align: left;
+	text-transform: uppercase;
+}
+
 
