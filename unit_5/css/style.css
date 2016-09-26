@@ -1,0 +1,118 @@
+@import 'https://fonts.googleapis.com/css?family=Montserrat';
+@import 'https://fonts.googleapis.com/css?family=Lora';
+* { margin:0; padding:0; box-sizing:border-box; }
+body {
+	background-color: grey;
+	font-family: Lora, serif;
+	font-size: 18px;
+	line-height: 1.5;
+	text-align: justify;
+}
+
+#wrapper {
+	width: 100%;
+	height: auto;
+	background-color: white;
+}
+
+h2 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 2em;
+	color: #5c4c49;
+	text-decoration: underline;
+}
+
+header {
+    background-color: #FFED74;
+    border: 1px black solid;
+    padding: 1em;
+}
+
+nav {
+	background-color: #E8C66A;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+ul,li {
+	font-family: 'Montserrat', sans-serif;
+	text-decoration: none;
+	display: inline-block;
+	list-style-type: none;
+	padding: 1em;
+}
+
+#about-me {
+	background-color: #FFC675;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+.about-pic {
+	width: 275px;
+	height: 300px;
+	border: 1px black solid;
+}
+
+#portfolio {
+	background-color: #E89C6C;
+    border: 1px black solid;
+    padding: 20px;
+}
+.col1 {
+	background-color: #FFE2B8;
+    border: 1px black solid;
+    padding: 20px;
+	width: 120px;
+	height: 120px;
+}
+.col2 {
+	background-color: #FFE2B8;
+    border: 1px black solid;
+    padding: 20px;
+	width: 120px;
+	height: 120px;
+}
+.col3 {
+	background-color: #FFE2B8;
+    border: 1px black solid;
+    padding: 20px;
+	width: 120px;
+	height: 120px;
+}
+.col4 {
+	background-color: #FFE2B8;
+    border: 1px black solid;
+    padding: 20px;
+	width: 120px;
+	height: 120px;
+}
+
+footer {
+	background-color: #FF957E;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+.contact-pic {
+	background-color: #FFE2B8;
+    border: 1px black solid;
+    padding: 20px;
+    width: 290px;
+	height: 315px;
+}
+
+form {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px; 
+	color: #5c4c49;
+}
+
+a {
+	text-decoration: none;
+	color: #5c4c49 ;
+}
+
+.email {
+	color: blue;
+}
