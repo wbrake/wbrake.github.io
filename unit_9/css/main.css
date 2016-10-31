@@ -5,12 +5,12 @@
 }
 
 body{
-	background-color: #ffffff;
+	background-color: black;
 	font-family: verdana;
 	position: relative;
 }
-#lander{
-	background:url(../images/land.jpg) no-repeat center center scroll;
+#top-pic{
+	background:url(../images/landing-pic.jpg) no-repeat center center scroll;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -32,40 +32,32 @@ nav li{
 	padding: 55px;
 }
 nav li a{
-	color: #ffffff;
+	color: #323232;
 	text-decoration: none;
 }
 nav a:hover{
-	color: #fe8b00;
+	color: #ffffff;
 }
 h1{
-	font-size: 35px;
-	text-align: center;
-	color: #ffffff;
-	margin: 200px;
+	font-family: oswald;
+	font-weight: normal;
+	font-size:60px;
+	text-align:center;
+	color:#fff;
+	margin:200px 0 0;
 }
-h2{
-	font-size: 20px;
-	color: #39729d;
-	text-indent: 25px;
-	padding: 25px;
-}
-h6{
-	font-size: 12px;
-	color: #39729d;
-	text-indent: 45px;
-}
-h6 a:hover{
-	color: #fe8b00;
-}
-/*Main Section*/
 main{
-	background-color: #f5ece0;
-	width: 100%;
+	background-color: #F1E9E4;
+	color:#3C3C3C;
+	padding:50px 0;
 }
 #project-wrap{
 	width: 90%;
 	margin: auto;
+}
+.site{
+	float: left;
+
 }
 .clearfix:after{
 	height:0;
@@ -75,32 +67,39 @@ main{
 	content:" ";
 	clear:both;
 }
-.site{
-	width: 31.333%;
-	float: left;
-	padding:1%;
+h2{
+	text-align: center;
+	font-size: 18px;
+}
+h2{
+	font-size:.8em;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	margin:0 0 2.5em;
 }
 #about-me{
-	padding: 25px;
+	background-color: #ffffff;
+	color:#323232;
+	padding:5em 10% 7em;
 	line-height: 30px;
-	float: left;
 }
 #about-me img{
 	float: right;
 }
 footer{
-	clear: both;
-	height: 85px;
-	padding: 25px;
-	background-color: #323232;
+	background-color: #837c24;
+	height: 3.5em;
+}
+footer img{
+	float: right;
+	padding-right: 20px;
+
 }
 footer a{
 	color: #ffffff;
 }
 footer a:hover{
-	color: #fe8b00;
+	color: #3182e6;
 }
-footer img{
-	float: right;
-	padding: 10px;
-}
+@media screen and (max-width:1645px)
+
