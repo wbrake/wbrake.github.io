@@ -1,0 +1,106 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background-color: #ffffff;
+	font-family: verdana;
+	position: relative;
+}
+#lander{
+	background:url(../images/land.jpg) no-repeat center center scroll;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height:600px;
+	padding:20px 0;
+}
+nav{
+	margin: auto;
+	text-align: center;
+}
+nav ul{
+	margin: 30px;
+	padding: 25px;
+}
+nav li{
+	display: inline;
+	margin-left: 55px;
+	padding: 55px;
+}
+nav li a{
+	color: #ffffff;
+	text-decoration: none;
+}
+nav a:hover{
+	color: #fe8b00;
+}
+h1{
+	font-size: 35px;
+	text-align: center;
+	color: #ffffff;
+	margin: 200px;
+}
+h2{
+	font-size: 20px;
+	color: #39729d;
+	text-indent: 25px;
+	padding: 25px;
+}
+h6{
+	font-size: 12px;
+	color: #39729d;
+	text-indent: 45px;
+}
+h6 a:hover{
+	color: #fe8b00;
+}
+/*Main Section*/
+main{
+	background-color: #f5ece0;
+	width: 100%;
+}
+#project-wrap{
+	width: 90%;
+	margin: auto;
+}
+.clearfix:after{
+	height:0;
+	font-size:0;
+	visibility:hidden;
+	display:block;
+	content:" ";
+	clear:both;
+}
+.site{
+	width: 31.333%;
+	float: left;
+	padding:1%;
+}
+#about-me{
+	padding: 25px;
+	line-height: 30px;
+	float: left;
+}
+#about-me img{
+	float: right;
+}
+footer{
+	clear: both;
+	height: 85px;
+	padding: 25px;
+	background-color: #323232;
+}
+footer a{
+	color: #ffffff;
+}
+footer a:hover{
+	color: #fe8b00;
+}
+footer img{
+	float: right;
+	padding: 10px;
+}
