@@ -22,17 +22,15 @@ nav{
 	margin: auto;
 	text-align: center;
 }
-nav ul{
-	margin: 30px;
-	padding: 25px;
-}
 nav li{
 	display: inline;
 	margin-left: 55px;
 	padding: 55px;
 }
-nav li a{
+nav a{
 	color: #323232;
+	display:inline-block;
+	padding:2em;
 	text-decoration: none;
 }
 nav a:hover{
