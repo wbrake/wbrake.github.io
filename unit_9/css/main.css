@@ -5,9 +5,7 @@
 }
 
 body{
-	background-color: black;
 	font-family: verdana;
-	position: relative;
 }
 #top-pic{
 	background:url(../images/landing-pic.jpg) no-repeat center center scroll;
@@ -22,42 +20,15 @@ nav{
 	margin: auto;
 	text-align: center;
 }
-nav ul{
-	margin: 30px;
-	padding: 25px;
-}
-nav li{
-	display: inline;
-	margin-left: 55px;
-	padding: 55px;
-}
-nav li a{
-	color: #323232;
-	text-decoration: none;
+nav a{
+	padding: 3em;
+    font-size: 1em;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
 }
 nav a:hover{
-	color: #ffffff;
-}
-h1{
-	font-family: oswald;
-	font-weight: normal;
-	font-size:60px;
-	text-align:center;
-	color:#fff;
-	margin:200px 0 0;
-}
-main{
-	background-color: #F1E9E4;
-	color:#3C3C3C;
-	padding:50px 0;
-}
-#project-wrap{
-	width: 90%;
-	margin: auto;
-}
-.site{
-	float: left;
-
+	color: #323232;
 }
 .clearfix:after{
 	height:0;
@@ -67,39 +38,61 @@ main{
 	content:" ";
 	clear:both;
 }
-h2{
-	text-align: center;
-	font-size: 18px;
+#top-wrapper{
+	width: 100%;
+	margin: 0 auto;
+	padding: 20px;
+	background-color: #f4ecdf;
+}
+h1 {
+    font-weight: normal;
+    font-size: 3em;
+    text-align: center;
+    margin: 200px;
+    color: #fff;
 }
 h2{
-	font-size:.8em;
+	font-size: 16px;
+	padding: 1.5em;
+	font-weight: bold;
+	text-align: center;
+	color: #5183a7;
 	text-transform: uppercase;
-	letter-spacing: 2px;
-	margin:0 0 2.5em;
+}
+#top-wrapper{
+	width: 100%;
+	margin: 0 auto;
+	padding: 20px;
 }
 #about-me{
-	background-color: #ffffff;
-	color:#323232;
-	padding:5em 10% 7em;
+	float: left;
 	line-height: 30px;
+    padding: 1.5em;
+    background-color: #fff
 }
 #about-me img{
 	float: right;
+	display: block;
+}
+#project{
+	background-color: grey;
+	padding: 1em;
+	color: #000;
+	background-color: #e4edf1;
+}
+#col-container{
+	max-width: 1200px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.row{
+	float: left;
+    width: 23%;
+    margin: 11px;
 }
 footer{
-	background-color: #837c24;
-	height: 3.5em;
+	background-color: #fff;
 }
-footer img{
-	float: right;
-	padding-right: 20px;
+@media only screen and (max-width:)
 
 }
-footer a{
-	color: #ffffff;
-}
-footer a:hover{
-	color: #3182e6;
-}
-@media screen and (max-width:1645px)
-
