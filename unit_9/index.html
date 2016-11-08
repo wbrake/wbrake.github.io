@@ -1,71 +1,62 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>My Responsive Site</title>
-        <link rel="stylesheet" type="text/css" href="css/main.css">
-        <meta name="viewpoint" content="width=device-width, initial-scale=1">
-        <!--[if lt IE 9]>
-                <script src="bower_components/html5shiv/dist/html5shiv.js"></script>
-            <![endif]-->
-    </head>
-        <body>
-            <div id="top-pic">
-                <nav>
-                    <a href="#">Projects</a>|
-                    <a href="#">About Me</a>|
-                    <a href="#">Download My Resume</a>
-                </nav>
-                <header>
-                    <h1>WEB DESIGNER / DEVELOPER</h1>
-                </header>
-            </div> 
+<head>
+  <title>My Responsive Site</title>
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+  <meta charset="UTF-8">
+  <!--[if lt IE 9]>
+            <script src="bower_components/html5shiv/dist/html5shiv.js"></script>
+        <![endif]-->
+</head>
+  <body>
+      <div id="lander">
+          <label for="toggle">Menu</label>
+          <input type="checkbox" id="toggle">
+            <nav>
+              <a href="#">My Projects</a>
+              <a href="#">About Me</a>
+              <a href="#">Download My Resume</a>
+            </nav>
+            <header>
+              <h1>FRONT-END DESIGNER</h1>
+            </header>
+      </div>
 
-            <div id="top-wrapper" class="clearfix">
-
-                <section id="about-me">
-                    <h2>ABOUT ME</h2>
-                    <img src="images/me.png" alt="Run Disney" title="48.6 Miles to go!!">
-                    <p>My name is Wayne Brake, website designing along with being  a <b>MARATHON RUNNER</b> are two of my favorite pass-times to do. I first started dabbling in website design programs Photoshop, Dreamweaver, Illustrator, and Indesign in 2010 and have developed an entry-level understanding of HTML5, CSS3 and Javascript. I'm also working on responsive websites (which I will be posting very soon) and teaching myself Wordpress and Bootstrap.</p>
-
-                    <p>Being a freelancer I specialize in high quality, affordable and attractive web sites for small business. I find creating websites very pretty interesting.</p>
+      <section class="container">
+            <h2>My Projects</h2>
+            <div class="clearfix" id="site-wrapper">
+                <section class="row">
+                    <img src="images/mud.png" alt="Mudd Race" title="Mud Race">
+                    <h6>Mudd Races</h6>
                 </section>
-
-
-                    <section id="project">
-                        <h2>MY PROJECTS</h2>
-                        <div id="col-container">
-
-                            <div class="row">
-                                <img src="images/mud.png" alt="The Mud Run" title="The Mudd Run">
-                                <h6>The Mudd Run</h6>
-                            </div>
-
-                            <div class="row">
-                                <img src="images/music.png" alt="On Tour" title="On Tour">
-                                <h6>On Tour</h6>
-                            </div>
-
-                            <div class="row">
-                                <img src="images/machine.png" alt="HM Machine, Inc." title="HM Machine, Inc.">
-                                <h6>HM Machine, Inc.</h6>
-                            </div>
-
-                            <div class="row">
-                                <img src="images/cow.png" alt="The Creamy Cow" title="The Creamy Cow">
-                                <h6>The Creamy Cow</h6>
-                            </div>
-                            <a href="#"><img src="images/more.png"></a>
-                        </div>
-                    </section>
-
-
-                <footer>
-                    <a href="mailto:w_brake@comcast.net"><img src="images/email.png"></a>
-                    <a href="#"><img src="images/instagram.png"></a>
-                    <a href="#"><img src="images/link.png"></a>
-                </footer>
-
+                <section class="row">
+                    <img src="images/machine.png" alt="HM Machine, Inc." title="HM Machine, Inc.">
+                    <h6>HM Machine, Inc.</h6>
+                </section>
+                <section class="row">
+                    <img src="images/music.png" alt="On Tour" title="On Tour">
+                    <h6>Music</h6>
+                </section>
+                <section class="row">
+                    <img src="images/cow.png" alt="The Creamy Cow" title="The Creamy Cow">
+                    <h6>The Creamy Cow</h6>
+                </section>
             </div>
-                    
-        </body>
-</html>    
+        </section>
+
+        <section class="clearfix" id="about-me">
+        <h2>About Me</h2>
+          <img src="images/me.png" alt="48.6" title="Run Disney 2017">
+          <p>My name is Wayne Brake, website designing along with being  a <b>MARATHON RUNNER</b> are two of my favorite pass-times to do. I first started dabbling in website design programs Photoshop, Dreamweaver, Illustrator, and Indesign in 2010 and have developed an entry-level understanding of HTML5, CSS3 and Javascript. I'm also working on responsive websites (which I will be posting very soon) and teaching myself Wordpress and Bootstrap.</p>
+
+          <p>Being a freelancer I specialize in high quality, affordable and attractive web sites for small business. I find creating websites very pretty interesting.</p>
+        </section>
+
+        <footer>
+          <a href="#"><img src="images/instagram.png" alt="instagram" title="instagram"></a>
+          <a href="#"><img src="images/link.png" alt="Linked-in" title="Linked-in"></a>
+          <a href="mailto:w_brake@comcast.net"><img src="images/email.png" alt="E-Mail" title="E-Mail"></a>
+        </footer>
+
+  </body>
+</html>
