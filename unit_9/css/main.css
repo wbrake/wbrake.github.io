@@ -1,34 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Mystery+Quest|Oswald');
+@import url('https://fonts.googleapis.com/css?family=Lora');
 *{
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
 }
 
 body{
-	font-family: verdana;
+	background-color: #2e2a31;
+	font-family: tahoma;
+	position: relative;
 }
-#top-pic{
-	background:url(../images/landing-pic.jpg) no-repeat center center scroll;
+#lander{
+	background:url(../images/main.jpg) no-repeat center center scroll;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-	height:600px;
+	height:750px;
 	padding:20px 0;
 }
 nav{
-	margin: auto;
+	margin:auto;
 	text-align: center;
 }
 nav a{
-	padding: 3em;
-    font-size: 1em;
-    text-align: center;
-    text-transform: uppercase;
-    color: #ffffff;
+	color: #fff;
+	padding: 0 32px;
+	font-size: 1em;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 3px;
 }
 nav a:hover{
-	color: #323232;
+	color: #38719d;
+}
+header{
+	text-align: center;
+	padding: 15px;
+}
+h1{
+	font-family: 'Montserrat', serif;
+	font-weight: normal;
+	font-size:60px;
+	text-align:center;
+	color:#fff;
+	margin:200px 0 0;
+}
+.container{
+	background-color: #F1E9E4;
+	color:#3C3C3C;
+	padding:50px 0;
+}
+#site-wrapper{
+	width:90%;
+	margin:auto;
 }
 .clearfix:after{
 	height:0;
@@ -38,61 +65,38 @@ nav a:hover{
 	content:" ";
 	clear:both;
 }
-#top-wrapper{
-	width: 100%;
-	margin: 0 auto;
-	padding: 20px;
-	background-color: #f4ecdf;
+.row{
+	width:23%;
+	padding:1%;
+	margin:1%;
+	float:left;
 }
-h1 {
-    font-weight: normal;
-    font-size: 3em;
-    text-align: center;
-    margin: 200px;
-    color: #fff;
+.row img{
+	border-radius: 7px;
 }
 h2{
-	font-size: 16px;
-	padding: 1.5em;
-	font-weight: bold;
-	text-align: center;
-	color: #5183a7;
+	font-size: 1em;
 	text-transform: uppercase;
-}
-#top-wrapper{
-	width: 100%;
-	margin: 0 auto;
-	padding: 20px;
+	text-align: center;
+	color: #39729d;
+	letter-spacing: 3px;
+	margin:0 0 2.5em;
 }
 #about-me{
-	float: left;
+	background-color:#dcd0c0;
+	padding:5em 10% 7em;
 	line-height: 30px;
-    padding: 1.5em;
-    background-color: #fff
+	font-size: 18px;
+	float: left;
 }
 #about-me img{
 	float: right;
-	display: block;
 }
-#project{
-	background-color: grey;
-	padding: 1em;
-	color: #000;
-	background-color: #e4edf1;
-}
-#col-container{
-	max-width: 1200px;
-	margin: 0 auto;
-	overflow: hidden;
-}
-.row{
-	float: left;
-    width: 23%;
-    margin: 11px;
-}
-footer{
-	background-color: #fff;
-}
-@media only screen and (max-width:)
 
+@media screen and (max-width:1160px){
+		.row{
+		width: 33.3%;
+		height: 420px;
+		}
 }
+
